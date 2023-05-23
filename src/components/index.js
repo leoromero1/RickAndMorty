@@ -1,0 +1,9 @@
+export { Card } from "./Card/Card";
+export { CardList } from "./CardList/CardList";
+export { Carrousel } from "./Carrousel/Carrousel";
+export { Loading } from "./Loading/Loading";
+export { Navbar } from "./Navbar/Navbar";
+export { Pagination } from "./Pagination/Pagination";
+export { PersonajeDetail } from "./PersonajeDetail/PersonajeDetail";
+export { Personajes } from "./Personajes/Personajes";
+export { PersonajesList } from "./PersonajesList/PersonajesList";

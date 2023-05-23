@@ -1,0 +1,11 @@
+.Dead {
+  background: red;
+}
+
+.unknown {
+  background: gray;
+}
+
+.Alive {
+  background: green;
+}

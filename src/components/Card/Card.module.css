@@ -1,0 +1,89 @@
+.containers {
+  width: 600px;
+  height: 220px;
+  display: flex;
+  overflow: hidden;
+  background: rgb(60, 62, 68);
+  border-radius: 0.5rem;
+  margin: 0.75rem;
+  transition: ease-in 0.2s;
+}
+
+.containers:hover {
+  box-shadow: rgba(0, 0, 0, 0.683) 0px 4px 6px -1px;
+}
+
+.containerImg img {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  opacity: 1;
+  transition: opacity 0.5s ease 0s;
+  object-position: center center;
+  object-fit: cover;
+}
+.fav{
+  font-size: 25px;
+  margin-left: 5px;
+}
+.detail {
+  flex: 3 1 0%;
+  position: relative;
+  padding: 0.75rem;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+}
+
+.status {
+  margin-bottom: 1rem;
+}
+
+.statusIcon {
+  height: 0.7rem;
+  width: 0.7rem;
+  margin-right: 10px;
+  padding: 5px;
+  background: rgb(214, 61, 46);
+  border-radius: 50%;
+}
+
+.status h2 {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 700;
+  justify-content: center;
+}
+
+.detail p {
+  color: gray;
+}
+
+.Alive {
+  background: green;
+}
+
+.Dead {
+  background: red;
+}
+
+.unknown {
+  background: gray;
+}
+
+@media (max-width: 767px) {
+  .detail {
+    padding: 5px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+
+  .status {
+    margin-bottom: 5px;
+  }
+
+  .status h2 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
