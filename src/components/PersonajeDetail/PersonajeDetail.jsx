@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { useParams, Link } from "react-router-dom";
 import { Loading } from "../Loading/Loading";
-import "./personajes.css";
+import "./Personajes.css";
 export const PersonajeDetail = () => {
   const { id } = useParams();
   const [character, setCharacter] = useState(null);
