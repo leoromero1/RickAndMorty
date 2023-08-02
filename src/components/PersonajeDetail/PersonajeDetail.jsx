@@ -14,7 +14,6 @@ export const PersonajeDetail = () => {
       );
       setCharacter(response.data);
     } catch (error) {
-      console.log(error);
     }
   };
   useEffect(() => {
@@ -24,7 +23,7 @@ export const PersonajeDetail = () => {
   return !character ? (
     <Loading />
   ) : (
-    <section className='text-center pt-7'>
+    <section className='w-full text-center pt-7'>
       <Link to='/personajes'>
         <button className='px-6 py-2 font-medium text-white capitalize duration-300 bg-black rounded-lg hover:bg-gray-700'>Volver</button>
       </Link>
